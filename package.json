@@ -1,6 +1,6 @@
 {
   "name": "solid-fabric",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "keywords": [
     "eslint",
     "prettier"
@@ -15,10 +15,14 @@
   },
   "license": "MIT",
   "author": "zack",
+  "type": "commonjs",
   "exports": {
-    "./prettier": "./dist/prettier.js",
+    ".": {
+      "require": "./dist/index.js"
+    },
     "./eslint": "./dist/eslint.js"
   },
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
@@ -39,6 +43,7 @@
   "devDependencies": {
     "del-cli": "^5.1.0",
     "siroc": "^0.16.0",
+    "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
   "publishConfig": {
