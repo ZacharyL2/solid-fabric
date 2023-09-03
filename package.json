@@ -1,0 +1,47 @@
+{
+  "name": "solid-fabric",
+  "version": "1.0.0",
+  "keywords": [
+    "eslint",
+    "prettier"
+  ],
+  "homepage": "https://github.com/ZacharyL2/solid-fabric#readme",
+  "bugs": {
+    "url": "https://github.com/ZacharyL2/solid-fabric/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacharyL2/solid-fabric.git"
+  },
+  "license": "MIT",
+  "author": "zack",
+  "exports": {
+    "./prettier": "./dist/prettier.js",
+    "./eslint": "./dist/eslint.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "del dist && siroc build",
+    "dev": "siroc build --watch"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-solid": "^0.13.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "prettier-plugin-packagejson": "^2.4.5"
+  },
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "siroc": "^0.16.0",
+    "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
