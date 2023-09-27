@@ -54,6 +54,12 @@ export default {
     '@typescript-eslint/no-use-before-define': 2,
     '@typescript-eslint/no-useless-constructor': 2,
     '@typescript-eslint/triple-slash-reference': 2,
+    '@typescript-eslint/consistent-type-imports': [
+      2,
+      {
+        fixStyle: 'inline-type-imports',
+      },
+    ],
   },
   env: {
     browser: true,
