@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/ZacharyL2/solid-fabric/compare/v0.0.1...v0.0.2) (2023-09-27)
+
+
+### Features
+
+* update eslint rules ([b18120b](https://github.com/ZacharyL2/solid-fabric/commit/b18120bec902427eae96ba2bdff59fba8c93c38d))
+
 ### 0.0.1 (2023-09-03)
 
 
